@@ -30,4 +30,4 @@ const ShopPage = () => {
   );
 };
 
-export default Shop;
+export default ShopPage;
