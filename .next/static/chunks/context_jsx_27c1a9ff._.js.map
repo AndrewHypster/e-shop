@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD/Desktop/e-shop/context.jsx"],"sourcesContent":["'use client'\r\nimport { createContext, useContext, useState } from \"react\";\r\n\r\nconst CartContext = createContext();\r\n\r\nexport const CartProvider = ({ children }) => {\r\n  const [selectedProduct, setSelectedProduct] = useState(null);\r\n\r\n  const openForm = (product) => setSelectedProduct(product);\r\n  const closeForm = () => setSelectedProduct(null);\r\n\r\n  return (\r\n    <CartContext.Provider value={{ selectedProduct, openForm, closeForm }}>\r\n      {children}\r\n    </CartContext.Provider>\r\n  );\r\n};\r\n\r\nexport const useCart = () => useContext(CartContext);"],"names":[],"mappings":";;;;;AACA;;;AADA;;AAGA,MAAM,4BAAc,CAAA,GAAA,6JAAA,CAAA,gBAAa,AAAD;AAEzB,MAAM,eAAe,CAAC,EAAE,QAAQ,EAAE;;IACvC,MAAM,CAAC,iBAAiB,mBAAmB,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IAEvD,MAAM,WAAW,CAAC,UAAY,mBAAmB;IACjD,MAAM,YAAY,IAAM,mBAAmB;IAE3C,qBACE,6LAAC,YAAY,QAAQ;QAAC,OAAO;YAAE;YAAiB;YAAU;QAAU;kBACjE;;;;;;AAGP;GAXa;KAAA;AAaN,MAAM,UAAU;;IAAM,OAAA,CAAA,GAAA,6JAAA,CAAA,aAAU,AAAD,EAAE;AAAW;IAAtC","debugId":null}}]
+}

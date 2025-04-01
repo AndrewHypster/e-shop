@@ -1,0 +1,15 @@
+/* [project]/app/shop/shop.css [app-client] (css) */
+.shop-title {
+  color: var(--black);
+  font-size: 10vw;
+  font-weight: 700;
+}
+
+.shop-cards {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5vw;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_shop_shop_b52d8e88.css.map*/

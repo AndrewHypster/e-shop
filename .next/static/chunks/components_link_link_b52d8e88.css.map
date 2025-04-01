@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/link/link.css"],"sourcesContent":[".link {\r\n  width: fit-content;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n}\r\n\r\n.link::after {\r\n  content: \"\";\r\n  width: 0%;\r\n  height: 1px;\r\n  margin-top: -2px;\r\n  transition: all .3s;\r\n  display: block;\r\n}\r\n\r\n.link:hover::after {\r\n  width: 100%;\r\n}\r\n\r\n.link-white {\r\n  color: var(--white)\r\n} .link-white::after {\r\n  background: var(--white);\r\n}\r\n\r\n.link-black {\r\n  color: var(--black)\r\n} .link-black::after {\r\n  background: var(--black);\r\n}\r\n\r\n.link-block {\r\n  width: fit-content;\r\n  text-decoration: none;\r\n  color: inherit;\r\n  display: block;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;;AASA;;;;AAIA;;;;AAEE;;;;AAIF;;;;AAEE;;;;AAIF"}}]
+}

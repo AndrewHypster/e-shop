@@ -1,0 +1,29 @@
+/* [project]/app/page.css [app-client] (css) */
+.categories {
+  width: fit-content;
+  margin: 8vw auto;
+  gap: 2vw;
+  display: grid;
+}
+
+.category {
+  width: 80vw;
+  padding: 2vw 3vw;
+  background: var(--black);
+  border-radius: 2vw 0;
+  gap: 4vw;
+  align-items: center;
+  display: flex;
+}
+
+.category-text {
+  font-size: 2.5vw;
+  gap: .4vw;
+  display: grid;
+}
+
+.category-title {
+  font-size: 6vw;
+}
+
+/*# sourceMappingURL=app_page_b52d8e88.css.map*/

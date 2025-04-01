@@ -1,0 +1,12 @@
+.shop-title {
+  color: var(--black);
+  font-size: 10vw;
+  font-weight: 700;
+}
+
+.shop-cards {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5vw;
+  display: flex;
+}

@@ -1,0 +1,99 @@
+/* [project]/components/link/link.css [app-client] (css) */
+.link {
+  width: fit-content;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  margin-top: -2px;
+  transition: all .3s;
+  display: block;
+}
+
+.link:hover:after {
+  width: 100%;
+}
+
+.link-white {
+  color: var(--white);
+}
+
+.link-white:after {
+  background: var(--white);
+}
+
+.link-black {
+  color: var(--black);
+}
+
+.link-black:after {
+  background: var(--black);
+}
+
+.link-block {
+  width: fit-content;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+/* [project]/components/header/header.css [app-client] (css) */
+.header {
+  padding: 2vw;
+  background: var(--black);
+  text-align: center;
+}
+
+
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --white: #effcf4;
+  --black: #1d1c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+}
+
+button {
+  color: var(--white);
+  border: none;
+  outline: none;
+  background: none;
+}
+
+body {
+  color: var(--white);
+  font-family: monospace;
+  background-color: #e6e6e6;
+}
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 8vw;
+}
+
+h2 {
+  font-size: 8vw;
+}
+
+img {
+  width: 20vw;
+  height: 20vw;
+}
+
+
+/*# sourceMappingURL=_c705b944._.css.map*/

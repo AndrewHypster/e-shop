@@ -1,0 +1,40 @@
+/* [project]/components/input/input.css [app-client] (css) */
+.inpt-num {
+  padding: 0 .44vw;
+  border: 1px solid var(--white);
+  border-radius: 100vw;
+  gap: .5vw;
+  display: flex;
+}
+
+.inpt-num-inpt::-webkit-inner-spin-button, .inpt-num-inpt::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inpt-num-inpt {
+  width: 3.89vw;
+  height: 1.11vw;
+  text-align: center;
+  font-size: 1.11vw;
+  align-self: center;
+}
+
+.inpt-num-btn {
+  align-self: center;
+  height: fit-content;
+  font-size: 1.11vw;
+}
+
+@media (width <= 480px) {
+  .inpt-num-inpt {
+    width: 7.78vw;
+    height: 2.22vw;
+  }
+
+  .inpt-num-inpt, .inpt-num-btn {
+    font-size: 2.22vw;
+  }
+}
+
+/*# sourceMappingURL=components_input_input_b52d8e88.css.map*/

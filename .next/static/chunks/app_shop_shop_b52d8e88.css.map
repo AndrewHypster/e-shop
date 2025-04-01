@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/shop/shop.css"],"sourcesContent":[".shop-title {\r\n  color: var(--black);\r\n  font-size: 10vw;\r\n  font-weight: 700;\r\n}\r\n\r\n.shop-cards {\r\n  flex-wrap: wrap;\r\n  justify-content: space-around;\r\n  gap: 5vw;\r\n  display: flex;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA"}}]
+}

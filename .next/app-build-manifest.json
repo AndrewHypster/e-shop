@@ -1,0 +1,37 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_bea5547a._.js",
+      "static/chunks/node_modules_next_dist_e995758e._.js",
+      "static/chunks/_c705b944._.css",
+      "static/chunks/app_layout_f0e4c1a2.js",
+      "static/chunks/node_modules_next_dist_5eec24f3._.js",
+      "static/chunks/app_page_88deed31.css",
+      "static/chunks/app_page_jsx_df85d9b6._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_49a6ea35._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_43e3ffb8._.js",
+      "static/chunks/node_modules_next_dist_3bfaed20._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_be317ff2._.js"
+    ],
+    "/shop/page": [
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_5cc68966._.js",
+      "static/chunks/node_modules_next_dist_33ebcb9b._.js",
+      "static/chunks/context_jsx_27c1a9ff._.js",
+      "static/chunks/_c705b944._.css",
+      "static/chunks/app_layout_f0e4c1a2.js",
+      "static/chunks/_6eaf5ba0._.js",
+      "static/chunks/_fc659b92._.css",
+      "static/chunks/app_shop_page_jsx_326b4b93._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_49a6ea35._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_43e3ffb8._.js",
+      "static/chunks/node_modules_next_dist_3bfaed20._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_be317ff2._.js"
+    ]
+  }
+}

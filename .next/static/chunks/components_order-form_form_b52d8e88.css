@@ -1,0 +1,63 @@
+/* [project]/components/order-form/form.css [app-client] (css) */
+.order-form-bg {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: #0000006a;
+  backdrop-filter: blur(2px);
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.order-form-bg.hidden {
+  display: none;
+}
+
+.order-form {
+  position: relative;
+  width: 60vw;
+  height: 85vh;
+  box-sizing: border-box;
+  padding: 8vw 4vw;
+  background: var(--white);
+  color: var(--black);
+  text-align: center;
+  gap: 2vw;
+  flex-direction: column;
+  display: flex;
+}
+
+.order-form-text {
+  font-size: 4vw;
+}
+
+.order-form-inpt {
+  padding: .5vw;
+}
+
+.order-form-btn {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1vw 3vw;
+  color: var(--black);
+  border: 1px solid var(--black);
+  border-radius: 100vw;
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+.order-form-btn-close {
+  position: absolute;
+  top: 3vw;
+  right: 6vw;
+  color: var(--black);
+  font-size: 4vw;
+}
+
+/*# sourceMappingURL=components_order-form_form_b52d8e88.css.map*/

@@ -1,0 +1,181 @@
+/* [project]/app/shop/shop.css [app-client] (css) */
+.shop-title {
+  color: var(--black);
+  font-size: 10vw;
+  font-weight: 700;
+}
+
+.shop-cards {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5vw;
+  display: flex;
+}
+
+
+/* [project]/components/card/card.css [app-client] (css) */
+.card {
+  width: fit-content;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom-right-radius: .67vw;
+  background-color: var(--white);
+  justify-items: center;
+}
+
+.card .link-block {
+  line-height: 0;
+}
+
+.card-img {
+  width: 16.66vw;
+  height: 16.66vw;
+  background-size: cover;
+  background-position: center;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  position: relative;
+  height: 30%;
+  border-radius: 0 0 .89vw;
+  padding: .44vw;
+  background: var(--black);
+  text-align: center;
+  gap: .44vw;
+  display: grid;
+}
+
+.card-text {
+  text-wrap: wrap;
+  text-align: center;
+  gap: .11vw;
+  display: grid;
+}
+
+.card-kind {
+  font-size: 2.5vw;
+}
+
+.card-name {
+  font-size: 3vw;
+}
+
+.card-price {
+  color: #d3c71e;
+  font-weight: 600;
+}
+
+.card-form {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  gap: 1vw;
+  display: flex;
+}
+
+.card-btn {
+  height: 2.11vw;
+  white-space: nowrap;
+  padding: 0 .89vw;
+  border: 1px solid var(--white);
+  border-radius: 100vw;
+  line-height: 1em;
+  transition: all .3s;
+  align-items: center;
+}
+
+.card-btn:hover {
+  border: 1px solid var(--black);
+  background: var(--white);
+  color: var(--black);
+}
+
+.card-type {
+  position: absolute;
+  z-index: 1;
+  left: 4%;
+  bottom: 6%;
+  padding: .22vw .67vw;
+  border-radius: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+.card-type-new {
+  background: #5e85f5;
+}
+
+.card-type-top {
+  background: #dd1a21;
+}
+
+@media (width <= 480px) {
+  .card-img {
+    width: 27.78vw;
+    height: 27.78vw;
+  }
+
+  .card-content {
+    padding: 1.56vw;
+  }
+
+  .card-btn {
+    height: 3.56vw;
+    padding: 0 1.78vw;
+  }
+
+  .card-type {
+    padding: .44vw 1.33vw;
+  }
+}
+
+
+/* [project]/components/input/input.css [app-client] (css) */
+.inpt-num {
+  padding: 0 .44vw;
+  border: 1px solid var(--white);
+  border-radius: 100vw;
+  gap: .5vw;
+  display: flex;
+}
+
+.inpt-num-inpt::-webkit-inner-spin-button, .inpt-num-inpt::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inpt-num-inpt {
+  width: 3.89vw;
+  height: 1.11vw;
+  text-align: center;
+  font-size: 1.11vw;
+  align-self: center;
+}
+
+.inpt-num-btn {
+  align-self: center;
+  height: fit-content;
+  font-size: 1.11vw;
+}
+
+@media (width <= 480px) {
+  .inpt-num-inpt {
+    width: 7.78vw;
+    height: 2.22vw;
+  }
+
+  .inpt-num-inpt, .inpt-num-btn {
+    font-size: 2.22vw;
+  }
+}
+
+
+/*# sourceMappingURL=_4fb7fd80._.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/input/input.css"],"sourcesContent":[".inpt-num {\r\n  padding: 0 .44vw;\r\n  border: 1px solid var(--white);\r\n  border-radius: 100vw;\r\n  gap: .5vw;\r\n  display: flex;\r\n}\r\n\r\n.inpt-num-inpt::-webkit-inner-spin-button,\r\n.inpt-num-inpt::-webkit-outer-spin-button {\r\n  -webkit-appearance: none;\r\n  margin: 0;\r\n}\r\n\r\n.inpt-num-inpt {\r\n  width: 3.89vw;\r\n  height: 1.11vw;\r\n  text-align: center;\r\n  font-size: 1.11vw;\r\n  align-self: center;\r\n}\r\n\r\n.inpt-num-btn {\r\n  align-self: center;\r\n  height: fit-content;\r\n  font-size: 1.11vw;\r\n}\r\n\r\n@media (max-width: 480) {\r\n  .inpt-num-inpt {\r\n    width: 7.78vw;\r\n    height: 2.22vw;\r\n  }\r\n  .inpt-num-inpt, .inpt-num-btn {\r\n    font-size: 2.22vw;\r\n  }\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;AAMA;;;;;;;;AAQA;;;;;;AAMA;EACE;;;;;EAIA"}}]
+}
